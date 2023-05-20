@@ -26,3 +26,23 @@ let user: Bingo = {
   email: "h@h.com",
   human: true,
 };
+
+// combining type objects
+type cardNumber = {
+  cardNumber: string;
+};
+
+type cardDate = {
+  cardDate: number;
+};
+
+type cardDetails = cardNumber &
+  cardDate & {
+    cvv: number;
+  };
+
+let profile: cardDetails = {
+  cardNumber: "1234567",
+  cardDate: 2023,
+  cvv: 419,
+};
