@@ -15,3 +15,7 @@ const heros = ["ironman", "thor", "spiderman"];
 heros.map((hero) => {
   `${hero} is my hero`;
 });
+
+const consoleError = (errmsg: string): never => {
+  throw new Error(errmsg);
+};
