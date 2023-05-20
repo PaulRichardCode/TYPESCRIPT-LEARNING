@@ -1,17 +1,17 @@
 //let word: string = "west brook";
 
-function add(num: number): number {
-  return num + 2;
-}
+// function signUpUser(name: string, email: string, password: number) {}
 
-add(5);
+// signUpUser("Richard", "Paul@gmail", 1234);
 
-function signUpUser(name: string, email: string, password: number) {}
+// //arrow functiom
 
-signUpUser("Richard", "Paul@gmail", 1234);
+// let signup = (name: string, email: string, isPaid: boolean = false) => {};
 
-//arrow functiom
+//signup("h", "h@h.com");
 
-const signup = (name: string, email: string, isPaid: boolean = false) => {};
+const heros = ["ironman", "thor", "spiderman"];
 
-signup("h", "h@h.com");
+heros.map((hero) => {
+  `${hero} is my hero`;
+});
