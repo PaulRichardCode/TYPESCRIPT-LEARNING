@@ -20,3 +20,5 @@ let account: user | profile = {
 };
 
 let data: (number | string)[] = ["rose", 1];
+
+let seatgiven: "shade" | "paul";
