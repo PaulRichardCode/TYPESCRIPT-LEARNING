@@ -1,7 +1,17 @@
 // let bank: (string | number)[] = ["zenith", 10];
 
-// let bank: [string, number] = ["rose", 20];
+let bank: [string, number] = ["rose", 20];
 
-const banks: (string | boolean)[] = ["mommy", true];
+type user = {
+  name: string;
+  race: string;
+  qualified: boolean;
+};
 
-const rolls: [string, boolean] = ["logia", false];
+type info = {
+  number: number;
+  address: string;
+  email: string;
+};
+
+const bioData: (user | info)[] = [];
