@@ -15,3 +15,8 @@ type info = {
 };
 
 const bioData: (user | info)[] = [];
+
+bioData.push(
+  { name: "", race: "", qualified: false },
+  { number: 123, address: "", email: "" }
+);

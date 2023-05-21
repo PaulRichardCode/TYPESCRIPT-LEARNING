@@ -9,16 +9,16 @@ type profile = {
   id: number;
 };
 
-type user = {
-  username: string;
-  id: number;
-};
+// type user = {
+//   username: string;
+//   id: number;
+// };
 
-let account: user | profile = {
-  name: "Richard",
-  id: 1,
-};
+// // let account: user | profile = {
+// //   name: "Richard",
+// //   id: 1,
+// // };
 
-let data: (number | string)[] = ["rose", 1];
+// // let data: (number | string)[] = ["rose", 1];
 
-let seatgiven: "shade" | "paul";
+// // let seatgiven: "shade" | "paul";
