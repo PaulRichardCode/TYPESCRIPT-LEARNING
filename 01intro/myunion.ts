@@ -9,16 +9,24 @@ type profile = {
   id: number;
 };
 
-// type user = {
-//   username: string;
-//   id: number;
-// };
+type username = {
+  pog: string;
+  id: number;
+};
 
-// // let account: user | profile = {
-// //   name: "Richard",
-// //   id: 1,
-// // };
+//the and & type means both types combined or united (e.g profile and username below, must be include in the variable
+let account: profile & username = {
+  name: "",
+  id: 12,
+  pog: "",
+};
 
-// // let data: (number | string)[] = ["rose", 1];
+//while the | union symbol must include of the type element (e.g profile{namr and id} )
+let smile: profile | username = {
+  name: "",
+  id: 12,
+};
 
-// // let seatgiven: "shade" | "paul";
+let data: (number | string)[] = ["rose", 1];
+
+let seatgiven: "shade" | "paul";
