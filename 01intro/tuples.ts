@@ -25,3 +25,5 @@ type color = [number, number, number];
 
 const rbg: color = [223, 221, 312];
 rbg[1] = 501;
+
+let pstars = [sarah, banks];
