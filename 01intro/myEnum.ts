@@ -1,0 +1,8 @@
+//ONE DIFFERENCE BETWEEN ENUMS AND OBJECTS IS OOBJECT USES COLUMN AND ENUMS USES EQUAL TO
+
+enum boxers {
+  KSI = 12,
+  Jake = 15,
+}
+
+const record = boxers.KSI;
