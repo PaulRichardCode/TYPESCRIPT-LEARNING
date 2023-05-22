@@ -17,8 +17,16 @@ interface forms {
   calc(num: number, name: string): number;
 }
 
+interface forms {
+  jagaban: string;
+}
+
+interface Femi extends forms {
+  password: "godbewithme" | "praiserich";
+}
+
 let studentInfo: forms = {
-  name: "",
+  name: "rose",
   level: 25,
   dil: 23,
   email: "h@mail.com",
@@ -28,4 +36,5 @@ let studentInfo: forms = {
   calc(number: 25, name: "richy") {
     return 12;
   },
+  jagaban: "sadw",
 };
