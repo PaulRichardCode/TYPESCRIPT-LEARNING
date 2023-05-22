@@ -28,6 +28,8 @@ let user: Bingo = {
 };
 
 // combining type objects
+// ****************
+// AND & ONLY WORKS WITH OBJECTS
 type cardNumber = {
   cardNumber: string;
 };

@@ -31,4 +31,3 @@ rbg[1] = 501;
 let stars: string[] = ["sarah", "monica", "oyiza"];
 let animals: string[] | number[] = [919]; //this wont combine the type in will only choose one
 let animal: (string | number)[] = [122, "monkey"]; //this combine the type in will choose both, it can also accept one
-let planets: string[] & number[] = [];
