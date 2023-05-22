@@ -33,4 +33,4 @@ type planetB = [string, number];
 let stars: string[] = ["sarah", "monica", "oyiza"];
 let animals: string[] | number[] = [919]; //this wont combine union the type in will only choose one
 let animal: (string | number)[] = [122, "monkey"]; //this combine the type union in will choose both, it can also accept one
-let planet: [planetA, planetB] = [["mecury"], ["venus", 32]]; // the tuplets[] sticks to what is given
+let planet: [planetA, planetB] = [["mecury"], ["venus", 32]]; // the tuples[] sticks to what is given
