@@ -7,6 +7,7 @@ interface UserInterface {
 //protected unlike readonly can only be accessed or changed inside the classes
 
 class Person implements UserInterface {
+  //implement joins interface with the class
   id: number;
   name: string;
 
@@ -22,7 +23,28 @@ class Person implements UserInterface {
   }
 }
 
-const brad = new Person(1, "Paul Richard");
-const mike = new Person(2, "cum comquat");
+// you can use extend to join two classes together rather than implement
+//IT CALLED SUBCLASSES
 
-console.log(brad.register);
+class Employee extends Person {
+  position: string;
+
+  constructor(id: number, name: string, position: string) {
+    //super replaces this.id and this.name
+    super(id, name);
+    //position has to be initialized
+    this.position = position;
+  }
+}
+
+const emp = new Employee(1, "Paul rauf", "snr developer");
+
+//GENERICS
+
+function getArray<T>(items: T[]): T[] {
+  return new Array().concat(items);
+}
+
+let numArray = getArray<number>([1, 2, 3, 4]);
+
+numArray.push(1, 2, 3);
