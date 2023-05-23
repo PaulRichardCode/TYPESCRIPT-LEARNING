@@ -1,3 +1,4 @@
+//remember // ENUMS , INTERFACE AND TYPES ALL WORKS WITH OBJECTS
 //unlike forms
 type form = {
   name: string;
