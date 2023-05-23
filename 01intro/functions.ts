@@ -19,3 +19,12 @@ heros.map((hero) => {
 const consoleError = (errmsg: string): never => {
   throw new Error(errmsg);
 };
+
+//the last number means the answer should give us a number
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+function nightnine(message: string | number): void {
+  console.log(message);
+}

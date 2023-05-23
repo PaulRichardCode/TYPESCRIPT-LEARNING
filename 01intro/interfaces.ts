@@ -39,3 +39,7 @@ let studentInfo: forms = {
   },
   jagaban: "sadw",
 };
+
+interface mathFunc {
+  (x: number, y: number): number;
+}
