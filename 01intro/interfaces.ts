@@ -63,3 +63,31 @@ interface subFunc {
 const substraction: subFunc = (obi: number, mad: number): number => {
   return obi - mad;
 };
+
+// interface example {
+//   calc(x: string, y: string): string;
+// }
+
+// const example1: example = {
+//   calc(x: "rosa", y: "blasi") {
+//     return `${x} ' ' ${y}`;
+//   },
+// };
+
+// enum xample {
+//   first = "hey",
+//   second = "bro",
+//   third = "felix",
+// }
+
+// console.log(xample.first + xample.second);
+
+// type mock = {
+//   name: string;
+//   friend: string;
+// };
+
+// const classroom: mock = {
+//   name: "",
+//   friend: "",
+// };
