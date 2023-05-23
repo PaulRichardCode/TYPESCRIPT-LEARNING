@@ -49,3 +49,17 @@ const addition: MathFunc = {
     return x + y;
   },
 };
+
+interface subFunc {
+  (x: number, y: number): number;
+}
+
+// const substraction: subFunc = {
+//   subs(x: 24, y: 32) {
+//     return x - y;
+//   },
+// };
+
+const substraction: subFunc = (obi: number, mad: number): number => {
+  return obi - mad;
+};
