@@ -13,7 +13,7 @@ interface forms {
   googleId?: number;
   email: string;
 
-  //this are strictly made by interface not user
+  //this are strictly made by interface not type
   work(): string;
   calc(num: number, name: string): number;
 }
@@ -40,6 +40,12 @@ let studentInfo: forms = {
   jagaban: "sadw",
 };
 
-interface mathFunc {
-  (x: number, y: number): number;
+interface MathFunc {
+  calc(x: number, y: number): number;
 }
+
+const addition: MathFunc = {
+  calc(x, y) {
+    return x + y;
+  },
+};
